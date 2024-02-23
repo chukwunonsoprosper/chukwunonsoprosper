@@ -7,7 +7,6 @@
     <title>Chukwunonso prosper</title>
     <meta name='viewport' content='width=device-width, initial-scale=1'>
     <link rel='stylesheet' type='text/css' media='screen' href='css/main.css'>
-        <link rel="shortcut icon" href="IMG_1053 (2).JPG" type="image/x-icon">
     <link rel='stylesheet' type='text/css' media='screen' href='css/min.css'>
     <script src='script/main.js'></script>
 </head>
@@ -40,7 +39,7 @@
         <div class="navmenu">
             <br><br><br>
             <span class="close" onclick="closenav()">x</span>
-            <br><br><br><br><br><br><br><br><br>
+            <br><br><br><br><br><br><br>
             <a href="index.html">Home</a>
             <a href="#about">About</a>
             <a href="#project">Project</a>
@@ -52,19 +51,46 @@
     <div class="container">
         <div class="body">
             <div class="side1">
-                <h1>HEY, I'M CHUKWUNONSO PROSPER</h1>
+                <h1 id="aitype"></h1>
+                <script>
+                    const textToType = `HEY, I'M CHUKWUNONSO PROSPER`;
+                    const typingSpeed = 60;
+
+                    function typeText() {
+                        const typingDiv = document.getElementById('aitype');
+                        let index = 0;
+
+                        function type() {
+                            typingDiv.textContent += textToType[index];
+                            index++;
+
+                            if (index < textToType.length) {
+                                setTimeout(type, typingSpeed);
+                            }
+                        }
+
+                        type();
+                    }
+
+                    typeText();
+                </script>
                 <div class="writeup">
-                    <p>A seasoned full-stack developer specialized in crafting scalable website and applications, i am committed to delivering innovative solution and pushing the boundaries of what is possible in the realm of web and application development!!!</p>
+                    <p>A seasoned full-stack developer specialized in crafting scalable website and applications, i am
+                        committed to delivering innovative solution and pushing the boundaries of what is possible in
+                        the realm of web and application development!!!</p>
                 </div>
             </div>
             <div class="side2">
                 <div class="sociallink">
                     <div class="thesocialimg">
-                        <a target="_blank" href="https://www.facebook.com/chukwunonsoprosper.wtf"><img src="logo/facebook.svg" alt=""></a>
+                        <a target="_blank" href="https://www.facebook.com/chukwunonsoprosper.wtf"><img
+                                src="logo/facebook.svg" alt=""></a>
                         <a target="_blank" href="https://wa.link/yd6o34"><img src="logo/whatsapp.svg" alt=""></a>
-                        <a target="_blank" href="https://www.instagram.com/Chukwunonso_prosperr"><img src="logo/instagram.svg" alt=""></a>
+                        <a target="_blank" href="https://www.instagram.com/Chukwunonso_prosperr"><img
+                                src="logo/instagram.svg" alt=""></a>
                         <a target="_blank" href="https://twitter.com/heyprosper"><img src="logo/twitter.svg" alt=""></a>
-                        <a target="_blank" href="https://discord.com/chukwunonsoprosper"><img src="logo/discord.svg" alt=""></a>
+                        <a target="_blank" href="https://discord.com/chukwunonsoprosper"><img src="logo/discord.svg"
+                                alt=""></a>
                         <a target="" href="https://github.com/prosperdev"><img src="logo/github.svg" alt=""></a>
                     </div>
                     <div class="downloadcv">
@@ -79,7 +105,29 @@
                 <div class="abt1">
                     <h1>ABOUT ME</h1>
                     <div class="caption">
-                        <p>Crafting Digital Experiences: Where passion meets precision in the world of full-stack development. Join me on the journey of turning ideas into seamless, innovative solutions.</p>
+                        <p id="aitype1"></p>
+                        <script>
+                            const textToType1 = `Crafting Digital Experiences: Where passion meets precision in the world of full-stack development. Join me on the journey of turning ideas into seamless, innovative solutions.`;
+                            const typingSpeed1 = 60;
+
+                            function typeText1() {
+                                const typingDiv1 = document.getElementById('aitype1');
+                                let index1 = 0;
+
+                                function type1() {
+                                    typingDiv1.textContent += textToType1[index1];
+                                    index1++;
+
+                                    if (index1 < textToType1.length) {
+                                        setTimeout(type1, typingDiv1);
+                                    }
+                                }
+
+                                type1();
+                            }
+
+                            typeText1();
+                        </script>
                         <br>
                         <a href="https://wa.link/yd6o34">Contact</a>
                     </div>
@@ -88,24 +136,46 @@
                 <div class="abt2">
                     <h1>MY SKILLS</h1>
                     <div class="caption">
-                        <p>Proficient in diverse set of technologies and digital skills including...</p>
+                        <p id="aitype2"></p>
+                        <script>
+                            const textToType2 = `Proficient in diverse set of technologies and digital skills including...`;
+                            const typingSpeed2 = 60;
+
+                            function typeText2() {
+                                const typingDiv2 = document.getElementById('aitype2');
+                                let index2 = 0;
+
+                                function type2() {
+                                    typingDiv2.textContent += textToType2[index2];
+                                    index2++;
+
+                                    if (index2 < textToType2.length) {
+                                        setTimeout(type2, typingDiv2);
+                                    }
+                                }
+
+                                type2();
+                            }
+
+                            typeText2();
+                        </script>
                     </div>
 
                     <div class="tech">
                         <div class="thetech">
-                        <span>HTML</span>
-                        <span>CSS</span>
-                        <span>Javascript</span>
-                        <span>PHP</span>
-                        <span>MYSQL</span>
-                        <span>Graphic designing</span>
-                        <span>Python</span>
-                        <span>AJAX</span>
-                        <span>Responsive Design</span>
-                        <span>JSON</span>
-                        <span>github</span>
-                        <span>Github</span>
-                        <span>SEO</span>
+                            <span>HTML</span>
+                            <span>CSS</span>
+                            <span>Javascript</span>
+                            <span>PHP</span>
+                            <span>Graphic designing</span>
+                            <span>MYSQL</span>
+                            <span>Python</span>
+                            <span>AJAX</span>
+                            <span>Responsive Design</span>
+                            <span>JSON</span>
+                            <span>GIT</span>
+                            <span>Github</span>
+                            <span>SEO</span>
                         </div>
                     </div>
                     <span id="project"></span>
@@ -113,18 +183,39 @@
             </div>
         </div>
         <div class="project">
-            <div  class="projecttab">
+            <div class="projecttab">
                 <div class="proj1">
                     <h1>PROJECTS</h1>
                     <div class="caption">
-                        <p>Here you will find some of the personal and clients projects i created...</p>
+                        <p id="aitype3"></p>
+                        <script>
+                            const textToType3 = `Here you will find some of the personal and clients projects i created...`;
+                            const typingSpeed3 = 60;
+
+                            function typeText3() {
+                                const typingDiv3 = document.getElementById('aitype3');
+                                let index3 = 0;
+
+                                function type3() {
+                                    typingDiv3.textContent += textToType3[index3];
+                                    index3++;
+
+                                    if (index3 < textToType3.length) {
+                                        setTimeout(type3, typingDiv3);
+                                    }
+                                }
+
+                                type3();
+                            }
+
+                            typeText3();
+                        </script>
                     </div>
                 </div>
                 <div class="proj2">
                     <div class="errmessage">
                         <div class="themessage">
                             <img src="logo/question-circle.svg" alt="">
-                            <hr>
                             <div class="content">
                                 <p>An error occur trying to fetch projects from the server...</p>
                                 <a href="https://wa.link/yd6o34">Learn more about this problem?</a>
@@ -136,22 +227,44 @@
             <span id="letbuild"></span>
         </div>
     </div>
-    <div  class="letbuild">
+    <div class="letbuild">
         <div class="vlp">
             <div class="lebuid">
                 <h1>Start a project</h1>
-                <p>Interested in working together? We should queue up a time to chat, i'll buy the coffee😊😊</p>
+                <p id="aitype4"></p>
+                <script>
+                    const textToType4 = `Interested in working together? We should queue up a time to chat, i'll buy the coffee😊😊`;
+                    const typingSpeed4 = 60;
+
+                    function typeText4() {
+                        const typingDiv4 = document.getElementById('aitype4');
+                        let index4 = 0;
+
+                        function type4() {
+                            typingDiv4.textContent += textToType4[index4];
+                            index4++;
+
+                            if (index4 < textToType4.length) {
+                                setTimeout(type4, typingDiv4);
+                            }
+                        }
+
+                        type4();
+                    }
+
+                    typeText4();
+                </script>
                 <br><br>
                 <a href="https://wa.link/yd6o34">Let's do this</a>
                 <br><br><br>
-        </div>
+            </div>
         </div>
 
         <div class="portname">
             <div class="thetside">
                 <div class="pname">
                     <h1>Chukwunonso prosper</h1>
-                    <p>living, Learning & Levelling up one day at a time</p>
+                    <p>Living, Learning & Levelling up one, day at a time</p>
                     <br>
                     <div class="hhhd">
                         <a href="chukwunonso prosper cv.pdf" download="">Download CV</a>
@@ -163,11 +276,15 @@
                     <h1>Social link</h1>
                     <div class="imglink">
                         <div class="thelink">
-                            <a target="_blank" href="https://www.facebook.com/chukwunonsoprosper.wtf"><img src="logo/facebook.svg" alt=""></a>
+                            <a target="_blank" href="https://www.facebook.com/chukwunonsoprosper.wtf"><img
+                                    src="logo/facebook.svg" alt=""></a>
                             <a target="_blank" href="https://wa.link/yd6o34"><img src="logo/whatsapp.svg" alt=""></a>
-                            <a target="_blank" href="https://www.instagram.com/Chukwunonso_prosperr"><img src="logo/instagram.svg" alt=""></a>
-                            <a target="_blank" href="https://twitter.com/heyprosper"><img src="logo/twitter.svg" alt=""></a>
-                            <a target="_blank" href="https://discord.com/chukwunonsoprosper"><img src="logo/discord.svg" alt=""></a>
+                            <a target="_blank" href="https://www.instagram.com/Chukwunonso_prosperr"><img
+                                    src="logo/instagram.svg" alt=""></a>
+                            <a target="_blank" href="https://twitter.com/heyprosper"><img src="logo/twitter.svg"
+                                    alt=""></a>
+                            <a target="_blank" href="https://discord.com/chukwunonsoprosper"><img src="logo/discord.svg"
+                                    alt=""></a>
                             <a target="" href="https://github.com/prosperdev"><img src="logo/github.svg" alt=""></a>
                         </div>
                     </div>

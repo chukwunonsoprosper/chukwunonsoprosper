@@ -3,9 +3,10 @@
 }
 
 body {
-    background-color: white;
+    background-color: whitesmoke;
     margin: 0;
     padding: 0;
+
 }
 
 ::-webkit-scrollbar{
@@ -56,6 +57,7 @@ body {
     width: 30px;
     height: 30px;
     border-radius: 100px;
+    cursor: pointer;
 }
 
 .fullimg p {
@@ -63,6 +65,7 @@ body {
     margin-left: 10px;
     font-weight: bold;
     font-family: manrope;
+    cursor: pointer;
 }
 
 .side1, .side2 {
@@ -90,6 +93,7 @@ body {
     color: white;
     padding: 8px 15px;
     border-radius: 8px;
+    cursor: pointer;
 }
 
 .otherside .menu a:hover, .fullimg p:hover{
@@ -103,6 +107,7 @@ body {
 
 #mobile {
     display: none;
+    cursor: pointer;
 }
 
 .sidenav {
@@ -125,7 +130,8 @@ body {
     font-weight: bold;
     color: #141414;
     display: block;
-    padding: 15px 20px;
+    padding: 25px 28px;
+    cursor: pointer;
 }
 
 .close {
@@ -133,6 +139,7 @@ body {
     background-color: #141414;
     padding: 2px 9px;
     border-radius: 100px;
+    cursor: pointer;
 }
 
 .container {
@@ -153,6 +160,7 @@ body {
     font-family: manrope;
     font-weight: bolder;
     font-size: 50px;
+    cursor: pointer;
 }
 
 .side1 .writeup {
@@ -165,6 +173,7 @@ body {
 
 .writeup p {
     font-family: darker;
+    cursor: pointer;
 }
 
 .thesocialimg {
@@ -196,6 +205,7 @@ body {
     border-radius: 8px;
     font-family: darker;
     transition: 0.5s ease-in-out;
+    cursor: pointer;
 }
 
 .downloadcv a:hover{
@@ -242,6 +252,7 @@ body {
     font-size: 40px;
     color: rgb(80, 1, 80);
     padding: 0;
+    cursor: pointer;
 }
 
 .abt1 .caption{
@@ -280,6 +291,7 @@ body {
     margin-bottom: 10px;
     cursor: pointer;
     transition: 0.5s ease-in-out;
+    cursor: pointer;
 }
 
 .tech span:hover {
@@ -303,10 +315,11 @@ body {
 .themessage img {
     width: 30px;
     height: 30px;
+    cursor: pointer;
 }
 
 .themessage .content p{
-    font-family: manrope;
+    font-family: darker;
     color: red;
 }
 
@@ -321,7 +334,7 @@ body {
 }
 
 .letbuild {
-    margin-top: 200px;
+    margin-top: 230px;
     background-color: rgb(80, 1, 80);
     width: 100%;
     margin-bottom: -20px;
@@ -333,12 +346,13 @@ body {
 }
 
 .lebuid {
-    margin-top: -100px;
+    margin-top: -130px;
     background-color: #141414;
     color: white;
-    padding: 20px 15px;
+    padding: 19px 25px;
     text-align: center;
     border-radius: 8px;
+    box-sizing: border-box;
     width: 80%;
 }
 
@@ -348,11 +362,13 @@ body {
     font-size: 40px;
     color: white;
     padding: 0;
+    cursor: pointer;
 }
 
 .lebuid p {
     font-family: darker;
     color: white;
+    cursor: pointer;
 }
 
 .lebuid a {
@@ -362,6 +378,8 @@ body {
     border: 3px solid  rgb(80, 1, 80);
     color: white;
     text-decoration: none;
+    cursor: pointer;
+    font-family: manrope;
 }
 
 .lebuid a:hover{
@@ -385,6 +403,7 @@ body {
     font-size: 30px;
     color: white;
     padding: 0;
+    cursor: pointer;
 }
 
 .thetside .pname1 h1 {
@@ -394,6 +413,7 @@ body {
 .thetside .pname p {
     color: white;
     font-family: darker;
+    cursor: pointer;
 }  
 
 .thetside .pname a {
