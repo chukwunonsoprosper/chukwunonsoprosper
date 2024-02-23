@@ -1,0 +1,434 @@
+*{
+    scroll-behavior: smooth;
+}
+
+body {
+    background-color: white;
+    margin: 0;
+    padding: 0;
+}
+
+::-webkit-scrollbar{
+    width: 0;
+}
+
+
+@font-face {
+    font-family: 'manrope';
+    src: url('/font/Manrope/Manrope-VariableFont_wght.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'darker';
+    src: url('/font/Darker_Grotesque/DarkerGrotesque-VariableFont_wght.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+.header {
+    background-color: white;
+    text-decoration: none;
+    font-size: 100%;
+    top: 0;
+    width: 100%;
+    position: fixed;
+}
+
+.firstside, .otherside {
+    padding: 0;
+}
+
+.full {
+    padding: 15px;
+    margin: 0;
+    display: flex;
+    justify-content: space-between;
+}
+
+.fullimg {
+    display: flex;
+    
+}
+
+.full .img img {
+    width: 30px;
+    height: 30px;
+    border-radius: 100px;
+}
+
+.fullimg p {
+    margin-top: 6px;
+    margin-left: 10px;
+    font-weight: bold;
+    font-family: manrope;
+}
+
+.side1, .side2 {
+    width: 50%;
+}
+
+
+.otherside {
+    margin-top: 6px;
+    padding: 0;
+}
+
+
+.otherside .menu a, span{
+    padding:  0px 22px;
+    transition: 0.5s ease-in;
+    text-decoration: none;
+    color: black;
+    font-family: manrope;
+    font-weight: bold;
+}
+
+.otherside .menu #cv {
+    background-color: #141414;
+    color: white;
+    padding: 8px 15px;
+    border-radius: 8px;
+}
+
+.otherside .menu a:hover, .fullimg p:hover{
+    color: rgb(77, 75, 75);
+    transition: 0.5s ease-in-out;
+}
+
+.otherside .menu #cv:hover{
+    background-color:rgb(77, 75, 75);
+}
+
+#mobile {
+    display: none;
+}
+
+.sidenav {
+    position: fixed;
+    width: 0;
+    transition: 0.5s ease-in-out;
+    height: 100%;
+    right: 0;
+    background-color: white;
+    top: 0;
+}
+
+.sidenav .navmenu {
+    text-align: center;
+}
+
+.sidenav .navmenu a{
+    text-decoration: none;
+    font-family: manrope;
+    font-weight: bold;
+    color: #141414;
+    display: block;
+    padding: 15px 20px;
+}
+
+.close {
+    color: white;
+    background-color: #141414;
+    padding: 2px 9px;
+    border-radius: 100px;
+}
+
+.container {
+    margin-top: 150px;
+    padding: 15px 80px;
+}
+
+.body {
+    display: flex;
+    justify-content: space-between;
+}
+
+.body .side1{
+    text-align: left;
+}
+
+.body .side1 h1{
+    font-family: manrope;
+    font-weight: bolder;
+    font-size: 50px;
+}
+
+.side1 .writeup {
+    padding: 0;
+}
+
+.side1 .writeup {
+    width: 580px;
+}
+
+.writeup p {
+    font-family: darker;
+}
+
+.thesocialimg {
+    display: flex;
+    justify-content: flex-end;
+    margin-top: 52px;
+}
+
+.thesocialimg img {
+    width: 25px;
+    height: 25px;
+    padding: 0px 15px;
+    cursor: pointer;
+}
+
+.downloadcv {
+    text-align: center;
+    padding: 10px;
+    display: flex;
+    justify-content: flex-end;
+    margin-top: 53px;
+}
+
+.downloadcv a {
+    padding: 15px 40px;
+    background-color: rgb(80, 1, 80);
+    color: white;
+    text-decoration: none;
+    border-radius: 8px;
+    font-family: darker;
+    transition: 0.5s ease-in-out;
+}
+
+.downloadcv a:hover{
+    background-color:  rgb(117, 2, 117);
+    padding: 13px 38px;
+}
+
+.aboutme {
+    display: flex;
+    justify-content: space-between;
+}
+
+.about, .project {
+    margin-top: 85px;
+}
+
+.aboutme, .projecttab{
+    display: flex;
+    justify-content: space-between;
+    padding: 0;
+}
+
+.abt1, .proj1{
+    text-align: left;
+}
+.abt2, .proj2{
+    text-align: right;
+}
+
+.abt1, .abt2 {
+    width: 50%;
+    padding: 0;
+}
+
+.proj1, .proj2{
+    width: 50%;
+    padding: 0;
+}
+
+
+.abt1 h1, .abt2 h1, .proj1 h1{
+    font-family: manrope;
+    font-weight: bolder;
+    font-size: 40px;
+    color: rgb(80, 1, 80);
+    padding: 0;
+}
+
+.abt1 .caption{
+    width: 350px;
+    font-family: darker;
+    padding: 0;
+}
+
+.abt1 .caption a {
+    padding: 10px 15px;
+    background-color: rgb(80, 1, 80);
+    color: white;
+    font-family: darker;
+    text-decoration: none;
+    border-radius: 8px;
+}
+
+ .abt2 .caption, .proj1 .caption{
+    font-family: darker;
+    padding: 0;
+}
+
+.tech {
+    text-align: right;
+    padding: 0;
+}
+
+.tech span {
+    background-color: lightgray;
+    color: black;
+    font-family: manrope;
+    border-radius: 8px;
+    padding: 15px 20px;
+    display: inline-block;
+    margin-left: 10px;
+    margin-bottom: 10px;
+    cursor: pointer;
+    transition: 0.5s ease-in-out;
+}
+
+.tech span:hover {
+    background-color: rgb(138, 138, 138);
+}
+
+.errmessage {
+    display: flex;
+    justify-content: flex-end;
+    margin-top: 40px;
+}
+
+.errmessage .themessage {
+    width: 85%;
+    border: 1px solid lightgray;
+    text-align: center;
+    padding: 25px 15px;
+    border-radius: 8px;
+}
+
+.themessage img {
+    width: 30px;
+    height: 30px;
+}
+
+.themessage .content p{
+    font-family: manrope;
+    color: red;
+}
+
+.content a {
+    padding: 5px 20px;
+    background-color: rgb(80, 1, 80);
+    text-decoration: none;
+    color: white;
+    cursor: pointer;
+    font-family: darker;
+    border-radius: 8px;
+}
+
+.letbuild {
+    margin-top: 200px;
+    background-color: rgb(80, 1, 80);
+    width: 100%;
+    margin-bottom: -20px;
+}
+
+.letbuild .vlp {
+    display: flex;
+    justify-content: center;
+}
+
+.lebuid {
+    margin-top: -100px;
+    background-color: #141414;
+    color: white;
+    padding: 20px 15px;
+    text-align: center;
+    border-radius: 8px;
+    width: 80%;
+}
+
+.letbuild .lebuid h1 {
+    font-family: manrope;
+    font-weight: bolder;
+    font-size: 40px;
+    color: white;
+    padding: 0;
+}
+
+.lebuid p {
+    font-family: darker;
+    color: white;
+}
+
+.lebuid a {
+    padding: 13px 18px;
+    background-color: transparent;
+    border-radius: 8px;
+    border: 3px solid  rgb(80, 1, 80);
+    color: white;
+    text-decoration: none;
+}
+
+.lebuid a:hover{
+    background-color: #2c2c2c;
+    transition: 0.5s ease-in-out;
+}
+
+.portname {
+    margin-top: 20px;
+    padding: 14px 70px;
+}
+
+.thetside {
+    display: flex;
+    justify-content: space-between;
+}
+
+.thetside .pname h1, .thetside .pname1 h1 {
+    font-family: manrope;
+    font-weight: bolder;
+    font-size: 30px;
+    color: white;
+    padding: 0;
+}
+
+.thetside .pname1 h1 {
+    text-align: right;
+}
+
+.thetside .pname p {
+    color: white;
+    font-family: darker;
+}  
+
+.thetside .pname a {
+    background-color: white;
+    font-family: darker;
+    padding: 13px 25px;
+    color: rgb(80, 1, 80);
+    font-weight: bolder;
+    border-radius: 8px;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+
+
+.imglink {
+    margin-top: 30px;
+    text-align: center;
+    display: flex;
+    justify-content: flex-end;
+}
+
+.thelink {
+    width: 250px;
+}
+
+.thelink img {
+    width: 30px;
+    height: 30px;
+    padding-left: 40px;
+    margin-bottom: 30px;
+    cursor: pointer;
+}
+
+
+
+
+

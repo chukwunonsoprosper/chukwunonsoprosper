@@ -1,0 +1,192 @@
+@media screen and (max-width: 600px){
+    #mobile {
+        display: block;
+    }
+
+    .otherside .menu a {
+        display: none;
+    }
+
+    .otherside .menu span{
+        padding:  0px 2px;
+    }
+
+    .container {
+        margin-top: 160px;
+        padding: 15px 30px;
+    }
+
+    .body {
+        display: block;
+        justify-content: unset;
+    }
+
+    .body .side1{
+        text-align: left;
+    }
+
+    .side1 .writeup {
+        width: 100%;
+    }
+
+    .thesocialimg {
+        display: flex;
+        justify-content: center;
+        margin-top: 52px;
+    }
+
+    .side1, .side2 {
+        width: 100%;
+    }
+
+    .downloadcv {
+        justify-content: center;
+    }
+
+    .aboutme {
+        display: block;
+        justify-content: unset;
+    }
+
+    .proj1, .proj2{
+        width: 100%;
+        padding: 0;
+    }
+
+    .aboutme {
+        display: block;
+        justify-content: unset;
+    }
+
+    .abt1 .caption{
+        width: 100%;
+        font-family: darker;
+        padding: 0;
+    }
+
+    .aboutme, .projecttab{
+        display: block;
+        justify-content: unset;
+        padding: 0;
+    }
+
+
+    .abt1 h1, .abt2 h1, .proj1 h1{
+        font-family: manrope;
+        font-weight: bolder;
+        font-size: 40px;
+        color: rgb(80, 1, 80);
+        padding: 0;
+        text-align: center;
+    }
+
+    .abt1, .abt2 {
+        width: 100%;
+        padding: 0;
+    }
+
+    .proj1, .proj2{
+        width: 100%;
+        padding: 0;
+    }
+
+    .abt1 .caption{
+       text-align: center;
+    }
+    
+    .abt1 .caption a {
+        text-align: center;
+    }
+
+    .tech {
+        text-align: center;
+        padding: 0;
+        margin-top: 50px;
+    }
+
+    .abt2{
+        margin-top: 90px;
+    }
+
+    .abt2 .caption p {
+        text-align: center;
+    }
+
+    .aboutme, .projecttab{
+        display: block;
+        justify-content: unset;
+        padding: 0;
+    }
+    .proj1, .proj2{
+        width: 100%;
+        padding: 0;
+    }
+
+    .proj1 h1 {
+        text-align: center;
+    }
+
+    .proj1 .caption{
+        text-align: center;
+    }
+
+    .errmessage {
+        display: flex;
+        justify-content: center;
+        margin-top: 40px;
+    }
+
+    .errmessage .themessage {
+        width: 100%;
+    }
+
+    .portname {
+        margin-top: 20px;
+        padding: 14px 30px;
+    }
+
+    .thetside {
+        display: block;
+        justify-content: center;
+    }
+
+
+    .thetside .pname1 h1 {
+        text-align: center;
+        display: none;
+    }
+
+    .thetside .pname h1 {
+        text-align: center;
+    }
+
+    .thetside .pname p {
+        text-align: center;
+    }
+
+    .hhhd {
+        display: flex;
+        justify-content: center;
+    }
+
+    .thelink {
+        width: 100%;
+    }
+
+    .imglink {
+        margin-top: 30px;
+        display: block;
+        justify-content: center;
+    }
+
+    .thelink img {
+        padding-left: 20px;
+    }
+
+    .body .side1 h1{
+        font-family: Arial, Helvetica, sans-serif;
+        font-weight: bolder;
+        font-size: 35px;
+    }
+    
+}
