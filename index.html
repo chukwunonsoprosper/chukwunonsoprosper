@@ -225,7 +225,8 @@
                                 async function fetchProject(link, meThod) {
                                     const url = link;
                                     const option = {
-                                        method : meThod
+                                        method : meThod,
+                                        mode: 'no-cors'
                                     }
 
                                     try {
