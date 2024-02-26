@@ -1,4 +1,4 @@
-@media screen and (max-width: 600px){
+@media screen and (max-width: 992px) {
     #mobile {
         display: block;
     }
@@ -7,8 +7,8 @@
         display: none;
     }
 
-    .otherside .menu span{
-        padding:  0px 2px;
+    .otherside .menu span {
+        padding: 0px 2px;
     }
 
     .container {
@@ -21,7 +21,7 @@
         justify-content: unset;
     }
 
-    .body .side1{
+    .body .side1 {
         text-align: left;
     }
 
@@ -35,7 +35,8 @@
         margin-top: 52px;
     }
 
-    .side1, .side2 {
+    .side1,
+    .side2 {
         width: 100%;
     }
 
@@ -48,7 +49,8 @@
         justify-content: unset;
     }
 
-    .proj1, .proj2{
+    .proj1,
+    .proj2 {
         width: 100%;
         padding: 0;
     }
@@ -58,20 +60,22 @@
         justify-content: unset;
     }
 
-    .abt1 .caption{
+    .abt1 .caption {
         width: 100%;
         font-family: darker;
         padding: 0;
     }
 
-    .aboutme, .projecttab{
+    .aboutme,
+    .projecttab {
         display: block;
         justify-content: unset;
         padding: 0;
     }
 
-
-    .abt1 h1, .abt2 h1, .proj1 h1{
+    .abt1 h1,
+    .abt2 h1,
+    .proj1 h1 {
         font-family: manrope;
         font-weight: bolder;
         font-size: 40px;
@@ -80,20 +84,22 @@
         text-align: center;
     }
 
-    .abt1, .abt2 {
+    .abt1,
+    .abt2 {
         width: 100%;
         padding: 0;
     }
 
-    .proj1, .proj2{
+    .proj1,
+    .proj2 {
         width: 100%;
         padding: 0;
     }
 
-    .abt1 .caption{
-       text-align: center;
+    .abt1 .caption {
+        text-align: center;
     }
-    
+
     .abt1 .caption a {
         text-align: center;
     }
@@ -104,7 +110,7 @@
         margin-top: 50px;
     }
 
-    .abt2{
+    .abt2 {
         margin-top: 90px;
     }
 
@@ -112,12 +118,15 @@
         text-align: center;
     }
 
-    .aboutme, .projecttab{
+    .aboutme,
+    .projecttab {
         display: block;
         justify-content: unset;
         padding: 0;
     }
-    .proj1, .proj2{
+
+    .proj1,
+    .proj2 {
         width: 100%;
         padding: 0;
     }
@@ -126,7 +135,7 @@
         text-align: center;
     }
 
-    .proj1 .caption{
+    .proj1 .caption {
         text-align: center;
     }
 
@@ -149,7 +158,6 @@
         display: block;
         justify-content: center;
     }
-
 
     .thetside .pname1 h1 {
         text-align: center;
@@ -183,10 +191,29 @@
         padding-left: 20px;
     }
 
-    .body .side1 h1{
+    .body .side1 h1 {
         font-family: Arial, Helvetica, sans-serif;
         font-weight: bolder;
         font-size: 35px;
     }
-    
+
+    .errmessage .themessage {
+        display: flex;
+    }
+
+    .themessage .projecttab {
+        width: 46%;
+    }
+
+
+}
+
+@media screen and (max-width:600px){
+    .errmessage .themessage {
+        display: block;
+    }
+
+    .themessage .projecttab {
+        width: 100%;
+    }
 }

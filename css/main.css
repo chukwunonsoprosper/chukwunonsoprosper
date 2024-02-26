@@ -239,13 +239,21 @@ body {
 }
 
 .abt1, .abt2 {
-    width: 50%;
+    margin-right: 5px auto;
     padding: 0;
 }
 
 .proj1, .proj2{
     width: 50%;
     padding: 0;
+}
+
+.proj1{
+    width: 35%;
+}
+
+.proj2 {
+    width: 60%;
 }
 
 
@@ -313,33 +321,99 @@ body {
 }
 
 .errmessage .themessage {
-    width: 85%;
+    width: 100%;
     border: 1px solid lightgray;
     text-align: center;
-    padding: 25px 15px;
     border-radius: 8px;
+    display: flex;
+    flex-wrap: wrap;
+    padding: 13px;
+    justify-content: center;
 }
 
-.themessage img {
-    width: 30px;
-    height: 30px;
+
+.themessage .projecttab {
+    width: 45%;
+    padding: 13px 20px;
+    box-sizing: border-box;
+    display: block;
+    background-color: white;
+    margin: 10px auto;
+    border-radius: 8px;
+    transition: 0.5s ease-in-out;
+}
+
+.themessage .projecttab:hover{
+    background-color: rgb(223, 223, 223);
+}
+
+.pheading {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.pheading .heading {
+    text-align: left;
+    color: rgb(80, 1, 80);
+    font-weight: bold;
+    font-size: large;
+    font-family: manrope;
     cursor: pointer;
 }
 
-.themessage .content p{
-    font-family: darker;
-    color: red;
+.pheading .link {
+    text-align: right;
+    color: #141414;
+    font-weight: bold;
+    font-size: large;
+    font-family: manrope;
 }
 
-.content a {
-    padding: 5px 20px;
-    background-color: rgb(80, 1, 80);
-    text-decoration: none;
-    color: white;
+.pheading .link img {
+    width: 20px;
+    height: 20px;
     cursor: pointer;
-    font-family: darker;
-    border-radius: 8px;
 }
+
+.projecttab .pbody {
+    text-align: left;
+    margin-top: -20px;
+}
+
+.projecttab .pbody .content {
+    color: #141414;
+    font-weight: bold;
+    font-family: darker;
+    font-size: large;
+    cursor: pointer;
+}
+
+.projecttab .creatorname {
+    display: flex;
+    cursor: pointer;
+    justify-content: space-between;
+}
+
+.projecttab .creatorname .hintflex img {
+    width: 20px;
+    height: 20px;
+    border-radius: 100px;
+    cursor: pointer;
+}
+
+.projecttab .name {
+    color: rgb(80, 1, 80);
+    font-weight: bold;
+    font-family: darker;
+    font-size: large;
+    margin-top:  -21px;
+}
+
+
+
+
 
 .letbuild {
     margin-top: 230px;
