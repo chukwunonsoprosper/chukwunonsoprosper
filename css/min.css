@@ -1,11 +1,17 @@
 @media screen and (max-width: 992px) {
     #mobile {
-        display: block;
+        display: none;
     }
 
     .otherside .menu a {
+        display: ;
+    }
+
+    .otherside .menu #cv {
         display: none;
     }
+
+
 
     .otherside .menu span {
         padding: 0px 2px;
@@ -215,5 +221,13 @@
 
     .themessage .projecttab {
         width: 100%;
+    }
+
+    #mobile {
+        display: block;
+    }
+
+    .otherside .menu a {
+        display: none;
     }
 }

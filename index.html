@@ -220,13 +220,12 @@
                 <div class="proj2">
                     <div class="errmessage">
                         <div id="themessaproject" class="themessage">
-       
+                            
                             <script>
                                 async function fetchProject(link, meThod) {
                                     const url = link;
                                     const option = {
-                                        method : meThod,
-                                        mode: 'no-cors'
+                                        method: meThod
                                     }
 
                                     try {
@@ -238,9 +237,9 @@
                                     }
                                 }
 
-                                fetchProject('https://adnerx.vercel.app', 'GET')
+                                fetchProject('http://localhost/dynapi/api.php', 'POST')
                             </script>
-                            
+
                         </div>
                     </div>
                 </div>
