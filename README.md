@@ -1,22 +1,25 @@
 
 
-<h1 style='color:green'>Chukwunonso Prosper's Portfolio</h1>
+<h1 style='color:black;'>Chukwunonso Prosper's</h1>
 <br>
 Welcome to my portfolio! I am a seasoned full-stack developer passionate about crafting scalable websites and applications. I am committed to delivering innovative solutions and pushing the boundaries of what is possible in web and application development.
-
+<br><br><br>
+<a style="padding: 12px 20px; text-decoration: none; background-color: dodgerblue; color: white;" href="https://web.facebook.com/chukwunonsoprosper.wtf">Facebook</a>
+<a style="padding: 12px 20px; text-decoration: none; background-color: green; color: white;" href="https://wa.link/zu56h0">WhatsApp</a>
+<a style="padding: 12px 20px; text-decoration: none; background-color: rgb(1, 23, 44); color: white;" href="https://twitter.com/heyprosper">Twitter</a>
+<br><br><br>
 <br>
 
-<img src="https://wakatime.com/share/@Chukwunonso_Prosper/435ddf49-fafd-47d1-bef4-6c2ebb3b1f7f.svg" alt="">
-<br>
+<img style="width: 500px; height: 500px;"  src="https://wakatime.com/share/@Chukwunonso_Prosper/7a18aa36-9d27-4fa5-8d53-46c3f13e988f.svg" alt="">
+<br><br>
 <img src="https://wakatime.com/badge/user/23b162b4-693c-4dd5-b625-148ff7d3fcaf.svg" alt="badge">
 <br><br>
 
 About Me
 Crafting Digital Experiences: Where passion meets precision in the world of full-stack development. Join me on the journey of turning ideas into seamless, innovative solutions.
+<br><br>
+<img style="width: 500px; height: 500px;"  src="https://wakatime.com/share/@Chukwunonso_Prosper/4310e229-de87-419b-9cff-f68201a56ee4.svg" alt="">
 <br>
-<img src="https://wakatime.com/share/@Chukwunonso_Prosper/d935097e-7005-4c54-bbf2-369f4176741a.svg" alt="">
-Contact: Click here
-
 <h2>My skills</h2>
 <p>HTML</p>
 <p>CSS</p>
@@ -31,4 +34,3 @@ Contact: Click here
 <p>Git</p>
 <p>GitHub</p>
 <p>SEO</p>
-<img src="https://wakatime.com/share/@Chukwunonso_Prosper/0ba361fb-3bd7-4781-a444-ae57fd6cdcd3.svg" alt="">
