@@ -10,7 +10,7 @@ Welcome to my portfolio! I am a seasoned full-stack developer passionate about c
 <br><br><br>
 <br>
 
-<img style="width: 500px; height: 500px;"  src="https://wakatime.com/share/@Chukwunonso_Prosper/7a18aa36-9d27-4fa5-8d53-46c3f13e988f.svg" alt="">
+<img style="width: 500px; height: 500px;"  src="https://wakatime.com/share/@Chukwunonso_Prosper/4ee67d42-b3f1-4be2-8253-591bb336d745.svg" alt="">
 <br><br>
 <img src="https://wakatime.com/badge/user/23b162b4-693c-4dd5-b625-148ff7d3fcaf.svg" alt="badge">
 <br><br>
