@@ -386,7 +386,8 @@ body {
 
 .projecttab .pbody .content {
     color: #141414;
-        font-weight: 400;
+        font-weight: 500;
+    font-size: large;
     font-family: darker;
     cursor: pointer;
 }
