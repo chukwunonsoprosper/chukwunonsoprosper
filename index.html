@@ -237,19 +237,25 @@
                                 async function fetchProject(link, meThod) {
                                     const url = link;
                                     const option = {
-                                        method: meThod
+                                        method: meThod,
+                                        mode: 'cors',
+                                        headers: {
+    'Origin': 'https://pserver.pxxl.space/'
+  }
                                     }
 
                                     try {
                                         let request = await fetch(url, option);
                                         let response = await request.text();
                                         document.getElementById('themessaproject').innerHTML = response;
+                                        console.log(response)
                                     } catch (error) {
                                         console.log(error);
                                     }
                                 }
+                          
 
-                                fetchProject('http://localhost/dynapi/api.php', 'POST')
+                                fetchProject('https://cors-anywhere.herokuapp.com/https://pserver.pxxl.space/sites/pserver/drive/api.php', 'GET')
                             </script>
 
                         </div>
