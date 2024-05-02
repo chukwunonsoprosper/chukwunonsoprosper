@@ -229,7 +229,7 @@
     }
 
     .projecttab {
-        animation: move 2s forwards;
+        animation: move 1s forwards;
     }
 
     @keyframes move {
