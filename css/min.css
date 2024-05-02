@@ -3,9 +3,6 @@
         display: none;
     }
 
-    .otherside .menu a {
-        display: ;
-    }
 
     .otherside .menu #cv {
         display: none;
@@ -229,5 +226,19 @@
 
     .otherside .menu a {
         display: none;
+    }
+
+    .projecttab {
+        animation: move 2s forwards;
+    }
+
+    @keyframes move {
+        from {
+            margin-top: 100px;
+        }
+
+        to {
+            margin-top: unset;
+        }
     }
 }
